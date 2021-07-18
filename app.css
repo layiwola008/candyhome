@@ -1,0 +1,56 @@
+body {
+    background:#FFC0CB;
+    font-family: "Nunito", sans-serif;
+}
+#mainNavbar {
+  background-color: #5D3895;
+  font-size: 21px;
+}
+button {
+  margin-top: 12px;
+}
+.navbar-brand {
+  font-size: 40px;
+  float: left;
+}
+.nav-item {
+  margin-top: 10px;
+  margin-left: 24px;
+  font-weight: bold;
+}
+.clearFloat {
+  clear: both;
+}
+#headingGroup h1 {
+  font-size: 4rem;
+  color: #5D3895;
+}
+#headingGroup span {
+  color: white;
+}
+.candyShow {
+  display: flex;
+}
+.candyShowDescribe {
+  background-color: #5D3895;
+  color: white;
+}
+.iconHeight {
+  float: left;
+  height: 54px;
+}
+.candyMachine {
+  position: relative;
+  top: -16px;
+}
+
+@media only screen and (max-width: 600px) {
+    .candyShow {
+    display: flex;
+    flex-direction: column;
+  }
+  .candyMachine {
+    position: relative;
+    top: -49px;
+  }
+}
